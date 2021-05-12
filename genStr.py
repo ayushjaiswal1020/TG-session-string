@@ -16,9 +16,8 @@ from pyrogram.errors import (
 API_TEXT = """Hi, {}.
 I am String Session Generator Bot. I will generate String Session of your Telegram Account.
 By @infozoxdesign
-Now send your `API_ID` same as `APP_ID` to Start Generating Session.\nYou Can Donate For My work here `ayushjaiswal.fam@idfcbank` reply_markup = InlineKeyboardMarkup( [[InlineKeyboardButton(text="Donate by UPI", url=f"https://me.fampay.in/ayushjaiswal")]]
-
-[[InlineKeyboardButton(text="Other type Donate", url=f"https://paykun.in/ayushdesign")]] )"""
+Now send your `API_ID` same as `APP_ID` to Start Generating Session.\nYou Can Donate For My work here `ayushjaiswal.fam@idfcbank` https://me.fampay.in/ayushjaiswa
+ \n https://paykun.in/ayushdesign """
 HASH_TEXT = "Now send your `API_HASH`.\n\nPress /cancel to Cancel Task."
 PHONE_NUMBER_TEXT = (
     "Now send your Telegram account's Phone number in International Format. \n"
