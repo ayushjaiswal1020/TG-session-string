@@ -128,9 +128,7 @@ async def genStr(_, msg: Message):
         await client.disconnect()
         text = "String Session is Successfully Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
-            [[InlineKeyboardButton(text="Show String Session", url=f"tg://openmessage?user_id={chat.id}")]], 
-            [[InlineKeyboardButton(text="Donate by UPI", url=f"https://me.fampay.in/ayushjaiswal")]], 
-            [[InlineKeyboardButton(text="Other type Donate", url=f"https://paykun.in/ayushdesign")]]
+            [[InlineKeyboardButton(text="Show String Session", url=f"tg://openmessage?user_id={chat.id}")]]
         )
         await bot.send_message(chat.id, text, reply_markup=reply_markup)
     except Exception as e:
